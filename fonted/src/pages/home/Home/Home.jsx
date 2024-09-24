@@ -14,8 +14,7 @@ const Home = () => {
       <Helmet>
         <title>VIRATIAN</title>
       </Helmet>
-      <div>hiii</div>
-      <div>
+{/*       <div>
         <div>
           <div className="flex items-center">
             <div className="w-96 ">
@@ -23,9 +22,9 @@ const Home = () => {
               <img src={ani2} alt="" /> <img src={ani2} alt="" />{" "}
               <img src={ani2} alt="" />
               <img src={ani2} alt="" /> <img src={ani2} alt="" />
-            </div>
+            </div> */}
             <Slider />
-            <div className="w-96 ">
+{/*             <div className="w-96 ">
               <img src={aniCricket} alt="" />
               <img src={ani2} alt="" /> <img src={ani2} alt="" />{" "}
               <img src={ani2} alt="" />
@@ -33,7 +32,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <PopularTournaments></PopularTournaments>
       <PopularInstructor></PopularInstructor>
       <Step></Step>
