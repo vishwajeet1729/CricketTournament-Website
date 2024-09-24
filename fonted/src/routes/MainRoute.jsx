@@ -3,7 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/home/Home/Home";
 import Instructor from "../pages/instructor/Instructor";
 import ErrorPage from "../pages/errorPage/ErrorPage";
-import Register from "../register/Register";
+import Register from "../Register/Register";
 export const router = createBrowserRouter([
   {
     path: "/",
