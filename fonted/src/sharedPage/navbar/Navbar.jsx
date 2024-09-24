@@ -89,13 +89,13 @@ const Navbar = () => {
           </div>
           <Link to="/">
             <div className=" hidden md:flex ">
-              <div className="w-20  ">
+              <div className="w-fit  ">
                 <img src={logof} />
               </div>
             </div>
           </Link>
           <RainbowButtons>
-            <Link to="/" className=" normal-case text-xl">
+            <Link to="/" className=" normal-case text-xl justify-start ">
               VIRATIAN
             </Link>
           </RainbowButtons>
